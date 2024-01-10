@@ -108,3 +108,41 @@
 // }
 
 
+// 
+
+// console.log(isLandscape(200,300))
+
+// function isLandscape(width, height)
+// {
+//     return (width> height);
+// }
+
+
+// Task
+
+//   divisible by 3 => Fizz
+// Divisible by of 5 => BUzz
+// Divisible by both 3  and  5 => FizzBuzz
+// Not divisible by 3 or 5 => input
+// Not a number =>'Not a number' 
+
+//  Solution
+
+// let output =fizBuzz(15) 
+// console.log(output)
+
+// function fizBuzz(input){
+//     if(typeof input !== 'number')
+//     return 'Not a Number';
+
+
+//     if ( input % 5 === 0) 
+//     return "Buzz";
+
+//         if ( input % 3 === 0  ) 
+//         return "Fizz";
+
+        
+//         if (input % 3 === 0 && input % 5 === 0) 
+//         return "FizzBuzz";
+// }
