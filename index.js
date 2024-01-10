@@ -18,16 +18,22 @@
 
 //Function
 
-function greet(name, lastname){
-    console.log('Hellow' + name +' ' + lastname)
+// function greet(name, lastname){
+//     console.log('Hellow' + name +' ' + lastname)
+// }
+
+// greet('Sultan mahmud','Alif' );//argument supply on the peramiter
+// greet('Nothing');//argument supply on the peramiter
+
+// // calculating a value
+// function square(number) {
+//    return number*number;
+// }
+
+// console.log(square(2))
+
+// For loop
+
+for(i=0; i < 4; i++){
+    console.log('Alif',i);
 }
-
-greet('Sultan mahmud','Alif' );//argument supply on the peramiter
-greet('Nothing');//argument supply on the peramiter
-
-// calculating a value
-function square(number) {
-   return number*number;
-}
-
-console.log(square(2))
