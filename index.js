@@ -146,3 +146,30 @@
 //         if (input % 3 === 0 && input % 5 === 0) 
 //         return "FizzBuzz";
 // }
+
+
+// Task speed limit
+// speed Limit =70;
+// 5 -> 1 point get
+//Math.floor(1.3)
+// 12 points -> suspended
+
+
+// checkSpeed(80)
+
+// function checkSpeed(speed){
+
+//     const speedLimit = 70;
+//     const kmperpoint = 5;
+
+//     if(speed <= speedLimit)
+//     console.log('ok');
+
+//     else {
+//         let points = math.floor( (speed - speedLimit) / kmperpoint );
+//         if(points >=12)
+//         console.log('license suspenet');
+//         else
+//         console.log('Points is', points)
+//     }
+// }
