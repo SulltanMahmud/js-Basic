@@ -56,10 +56,39 @@
 
 // Do while-loop
 
-let i = 0;
+// let i = 0;
 
-do{
-    if(i % 2 != 0);
-     console.log(i);
-     i++;
-} while(i<=5);
+// do{
+//     if(i % 2 != 0);
+//      console.log(i);
+//      i++;
+// } while(i<=5);
+
+
+
+//  for in-loop 
+// its used for array object
+
+// const person ={
+//     name:'Sultan Mahmud',
+//     age: 25
+
+// };
+
+
+// for(let key in person)
+// console.log(key,person[key])
+
+//  const colors = ["red", "green", "blue"];
+
+//  for (let index in colors) {
+//    console.log(index, colors[index]);
+//  }
+
+
+// For of loop
+
+// const colors =['red','green' ,'blue']
+
+// for(let color of colors)
+// console.log(color)
