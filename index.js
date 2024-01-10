@@ -34,6 +34,21 @@
 
 // For loop
 
-for(i=0; i < 4; i++){
-    console.log('Alif',i);
+// for(i=1; i <= 4; i++){
+//     console.log('Alif',i);
+// }
+
+// for (i = 1; i <= 4; i++) {
+//   if(i % 2 != 0)
+//   console.log(i)
+// }
+
+
+// while loop
+
+let i = 0;
+while(i<=5){
+  if(i % 2 != 0);
+    console.log(i);
+    i++;
 }
