@@ -46,9 +46,20 @@
 
 // while loop
 
+// let i = 0;
+// while(i<=5){
+//   if(i % 2 != 0);
+//     console.log(i);
+//     i++;
+// }
+
+
+// Do while-loop
+
 let i = 0;
-while(i<=5){
-  if(i % 2 != 0);
-    console.log(i);
-    i++;
-}
+
+do{
+    if(i % 2 != 0);
+     console.log(i);
+     i++;
+} while(i<=5);
