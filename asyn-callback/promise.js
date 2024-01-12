@@ -35,8 +35,8 @@
 //     console.log('Task 3')
   
 
-const paymentSuccess = true;
-const marks = 70;
+const paymentSuccess = false;
+const marks = 30;
 
 
 // Promise define
@@ -57,7 +57,7 @@ function enroll(){
     }, 2000);
   });
 
-  return Promise;
+  return promise;
 }
 
 function progress(){
@@ -102,3 +102,9 @@ enroll()
 .catch(function(err){
     console.log(err);
 })
+
+// const array =[1,2,3,4,5];
+// slice =array.slice(-2,-1)
+// slice =array.slice(-2,-1)
+// slice =array.slice(3,4)
+// console.log(slice)
