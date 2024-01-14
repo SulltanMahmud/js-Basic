@@ -37,6 +37,8 @@
         #progressBar {
     width: 50%;
     height: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
     background-color: red;
     transform-origin: left;
     animation: grow 2s forwards
@@ -59,6 +61,12 @@
         #overlayCheckbox:checked + #loadingOverlay {
             display: flex;
         }
+
+
+
+        .color{
+            background-color: white;
+        }
     </style>
     <title>Loading Overlay with Progress Bar</title>
 </head>
@@ -66,7 +74,8 @@
     <label for="overlayCheckbox" id="loadingButton">Click Me</label>
     <input type="checkbox" id="overlayCheckbox">
     <div id="loadingOverlay">
+        
         <div id="progressBar"></div>
-    </div>
+        </div>
 </body>
 </html>

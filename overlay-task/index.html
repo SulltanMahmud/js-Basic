@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+             <h1>Lorem ipsum dolor sit amet</h1>
+        </div>
+      
+      <div class="buttons">
+        <div class="button-1">
+          <label for="overlayCheckbox" id="loadingButton" onclick="changeHeaderColor()"  >Action</label>
+          <input    type="checkbox" id="overlayCheckbox" />
+          <div id="loadingOverlay" >
+            <div id="progressBar"></div>
+          </div>
+        </div>
+        <div class="button-2">
+          <label for="overlayCheckbox" id="resetButton" onclick="changeHeaderColorReset()">Reset</label>
+          <input type="checkbox" id="overlayCheckbox" />
+           
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="click.js"></script>
+  </body>
+</html>
