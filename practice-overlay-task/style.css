@@ -61,23 +61,38 @@ body {
 }
 
 #progressBar {
-   width: 0;
+   width: 0%;
     height: 10px;
     border: 2px solid #fff;
     border-radius: 10px;
     background-color: red;
     transform-origin: left;
-    animation: grow 2s linear forwards;
+    /* animation: grow 5s linear ; */
+    animation-name: grow;
+    animation-duration: ;
+    animation-direction:linear ;
+    transform-origin: left;
+    /* animation-duration: 5s; */
 }
 
 .bar-box{
-  width: 50%;
+  /* width: 50%;
   height: 10px;
   border-radius: 10px;
   background-color: rgb(246, 240, 240);
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 30%; */
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  background-color:rgb(246, 240, 240); 
+  border-radius: 10px;
+  
 }
 
  @keyframes grow{
@@ -86,7 +101,7 @@ body {
     }
 
     100%{
-       width: 50%;
+       width: 100%;
     }
  }
 
