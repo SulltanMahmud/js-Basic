@@ -35,8 +35,8 @@
 //     console.log('Task 3')
   
 
-const paymentSuccess = false;
-const marks = 30;
+const paymentSuccess = true;
+const marks = 80;
 
 
 // Promise define
